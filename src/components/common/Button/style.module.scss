@@ -1,0 +1,23 @@
+.focus{
+    @apply focus:outline-none 
+}
+
+.defaultButton{
+    @apply flex justify-center items-center text-white font-bold shadow-orange3D
+}
+
+.rounded{
+    @apply rounded-md
+}
+
+.disabled{
+    @apply cursor-not-allowed
+}
+
+.notDisabled{
+    @apply cursor-pointer
+}
+
+.text{
+    @apply text-center
+}

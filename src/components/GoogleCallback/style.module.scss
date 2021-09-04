@@ -1,0 +1,11 @@
+.errorContainer {
+    @apply flex justify-center items-center w-full h-full;
+}
+
+.loaderContainer {
+    @apply bg-black w-screen h-screen;
+}
+
+.loaderWrapper {
+    @apply h-full;
+}

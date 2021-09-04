@@ -1,0 +1,15 @@
+.slider {
+    @apply flex flex-col w-full justify-center items-center;
+}
+
+.distance {
+    @apply text-white font-bold text-xl p-2;
+}
+
+.label {
+    @apply mr-2;
+}
+
+.input {
+    @apply w-3/4;
+}

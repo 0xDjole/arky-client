@@ -1,0 +1,11 @@
+{
+    "testEnvironment": "node",
+    "testMatch": [
+        "**/__tests__/**/*.+(ts|tsx)",
+        "**/?(*.)+(spec|test).+(ts|tsx|js)"
+    ],
+    "setupFiles": ["dotenv/config"],
+    "transform": { "\\.ts$": ["ts-jest"] },
+    "modulePathIgnorePatterns": ["<rootDir>/dist/"],
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.ts"]
+}

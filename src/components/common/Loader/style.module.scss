@@ -1,0 +1,11 @@
+.loaderContainer {
+    @apply flex justify-center items-center w-full h-full;
+}
+
+.loader {
+    @apply flex justify-center items-center bg-white space-x-3 rounded-full p-3 w-32 shadow-orange3D;
+}
+
+.loaderAnimation {
+    @apply w-6 h-6 bg-black rounded-full;
+}

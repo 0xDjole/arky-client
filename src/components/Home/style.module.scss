@@ -1,0 +1,19 @@
+.button {
+    @apply w-48 h-48 lg:w-60 lg:h-60 text-3xl;
+}
+
+.buttonWrapper {
+    @apply flex w-full justify-center items-center;
+}
+
+.buttonContainer {
+    @apply flex flex-wrap w-full justify-center items-center flex-shrink-0;
+}
+
+.mapContainer {
+    @apply w-full;
+}
+
+.rounded {
+    @apply rounded-full;
+}

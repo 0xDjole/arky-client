@@ -1,0 +1,31 @@
+.filterButton {
+    @apply text-2xl flex-shrink-0;
+}
+
+.nextButton {
+    @apply w-full text-2xl;
+}
+
+.userButton {
+    @apply text-2xl flex-shrink-0;
+}
+
+.aiFillFilter {
+    @apply m-2 w-8 h-8 lg:w-9 lg:h-9;
+}
+
+.riArrowRightCircleFill {
+    @apply m-2 w-8 h-8 lg:w-9 lg:h-9;
+}
+
+.faUserAlt {
+    @apply m-2 w-8 h-8 lg:w-9 lg:h-9;
+}
+
+.nextOne {
+    @apply text-center;
+}
+
+.loaderDot {
+    @apply rounded-none;
+}
